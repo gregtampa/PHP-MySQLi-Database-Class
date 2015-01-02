@@ -1058,3 +1058,4 @@ class MysqliDb
         $this->rollback ();
     }
 } // END class
+?>
