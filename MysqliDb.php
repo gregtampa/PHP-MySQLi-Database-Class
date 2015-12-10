@@ -601,7 +601,7 @@ class MysqliDb
     {
         $parameters = array();
         $results = array();
-
+		$stmt->store_result();
         $meta = $stmt->result_metadata();
 
         // if $meta is false yet sqlstate is true, there's no sql error but the query is
